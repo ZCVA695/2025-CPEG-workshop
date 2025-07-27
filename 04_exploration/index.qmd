@@ -125,8 +125,8 @@ What about the countries in which these fossils were found? We can investigate t
 
 ```{r countries}
 # List unique country codes, and count them
-unique(fossils$cc)
-length(unique(fossils$cc))
+unique(fossils$cc) # how many countries have fossil crocodiles and list them
+length(unique(fossils$cc)) 
 ```
 
 Here we can see that Cenozoic crocodiles have been found in 89 different countries. Let's sort those values alphabetically to help us find specific countries.
@@ -146,18 +146,22 @@ Now it's your turn! Explore the data yourself:
 What is the geographic scale of our data? (hint: geoscale column)
 
 ```{r}
-
+sort(unique(fossils$geogscale))
+length(sort(unique(fossils$cc)))
 ```
 
 What is the stratigraphic scale of our data? (hint: stratscale column)
 
 ```{r}
-
+sort(unique(fossils$stratscale))
+length(sort(unique(fossils$stratscale)))
 ```
 
 What proportion of our occurrences are marine crocodiles? (hint: taxon_environment column)
 
 ```{r}
+sort(unique(fossils$taxon_environment))
+length(sort(unique(fossils$taxon_environment)))
 
 ```
 
