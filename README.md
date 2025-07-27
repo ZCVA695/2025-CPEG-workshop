@@ -1,4 +1,5 @@
 # Palaeoverse Workshop Template
+# Edited by Mollie Mills 27/07/2025
 
 ## Purpose
 
